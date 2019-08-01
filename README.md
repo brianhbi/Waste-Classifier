@@ -23,4 +23,4 @@ python3 mo_tf.py --input_model ./trained_model.pb --output_dir /home/"user"/ --i
 
 Navigate to inference engine/samples/python_samples/classifaction_sample_async: 
 
-Plug in your NCS2 stick, run classification_sample_async.py, pass in model (-m), input image (-m), and include the parameters "-d MYRIAD" for NCS2!
+Plug in your NCS2 stick, run classification_sample_async.py, pass in model (-m), input image (-i), and include the parameters "-d MYRIAD" for NCS2!
