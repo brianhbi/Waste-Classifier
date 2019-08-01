@@ -1,0 +1,7 @@
+cardboard mixed recycling 
+food compostable 
+glass mixed recycling 
+metal mixed recycling 
+paper mixed recycling 
+plastic mixed recycling 
+trash landfill 
