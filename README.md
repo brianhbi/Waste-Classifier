@@ -19,8 +19,8 @@ Establish your OPENVINO Environment Variables!
 
 Navigate to /$openvino installation dir$/deployment_tools/model_optimizer/: 
 
-python3 mo_tf.py --input_model ./trained_model.pb --output_dir /home/"user"/ --input_shape (1,299,299,3) --mean_values (127.5,127.5,127.5) --scale 127.5
+python3 mo_tf.py --input_model ./trained_model.pb --output_dir /home/"user"/ --input_shape (1,299,299,3) --mean_values (127.5,127.5,127.5) --scale 127.5 --data_type FP16 (only for NCS2)
 
 Navigate to inference engine/samples/python_samples/classifaction_sample_async: 
 
-Plug in your NCS2 stick, run classification_sample_async.py and include the parameters "-d MYRIAD"!
+Plug in your NCS2 stick, run classification_sample_async.py, pass in model (-m), input image (-m), and include the parameters "-d MYRIAD" for NCS2!
