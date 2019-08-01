@@ -7,7 +7,9 @@ Link to data set: https://drive.google.com/file/d/1xNfhf6gwAeBb1xaQIdnw4lzAnnSIa
 
 Install OpenVINO: https://docs.openvinotoolkit.org/latest/_docs_install_guides_installing_openvino_linux.html (make sure NCS2 dependencies are installed!)
 
-Install TensorFlow: pip3 install tensorflow
+Install TensorFlow: 
+
+pip3 install tensorflow
 
 Navigate to Waste Classifier folder: 
 
